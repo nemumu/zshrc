@@ -8,8 +8,8 @@ case ${OSTYPE} in
         alias la='ls -laG'
         alias ls='ls -G'
         alias sl='ls -G'
-        export HOMEBREW_NO_ANALYTICS=1
         alias nvim='vim'
+        export HOMEBREW_NO_ANALYTICS=1
         ;;
     linux*)
         alias l='ls -ltr --color=auto'
