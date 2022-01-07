@@ -16,7 +16,6 @@ case ${OSTYPE} in
         alias ll='ls -ltr --color=auto'
         alias ls='ls -ltr --color=auto'
         alias sl='ls -ltr --color=auto'
-        alias nvim='~/bin/nvim-linux64/bin/nvim'
         alias vim='nvim'
         ;;
 esac
