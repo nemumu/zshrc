@@ -111,7 +111,8 @@ setopt share_history
 setopt histignorealldups
 
 # Charset
-export LANG=ja_JP.UTF-8
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
 
 # History config
 HISTSIZE=10000
