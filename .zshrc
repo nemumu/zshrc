@@ -9,12 +9,15 @@ case ${OSTYPE} in
         alias ls='ls -G'
         alias sl='ls -G'
         export HOMEBREW_NO_ANALYTICS=1
+        alias nvim='vim'
         ;;
     linux*)
         alias l='ls -ltr --color=auto'
         alias ll='ls -ltr --color=auto'
         alias ls='ls -ltr --color=auto'
         alias sl='ls -ltr --color=auto'
+        alias nvim='~/bin/nvim-linux64/bin/nvim'
+        alias vim='nvim'
         ;;
 esac
 
@@ -44,8 +47,8 @@ alias dup='docker-compose up'
 alias ddown='docker-compose down'
 
 # Other alias
-alias v='vim'
-alias vi='vim'
+alias v='nvim'
+alias vi='nvim'
 
 alias mkdir='mkdir -p'
 
